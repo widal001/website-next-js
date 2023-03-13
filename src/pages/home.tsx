@@ -17,13 +17,13 @@ export default function Home() {
         <section className="snap-start flex items-center bg-blue-200 min-h-screen">
           <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
             <h1 className="mb-4 text-3xl font-normal tracking-tight leading-none text-neutral-900 md:text-4xl lg:text-5xl ">
-              <div className="row my-4">{"Hi, my name is Billy and I'm"}</div>
+              <div className="row my-4">{"Hi, my name is Billy and"}</div>
               <div className="row my-4 mb-8">
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
                       .pauseFor(250)
-                      .typeString("a software engineer")
+                      .typeString("I'm a software engineer")
                       .pauseFor(250)
                       .deleteChars("software engineer".length)
                       .typeString("civic technologist")
