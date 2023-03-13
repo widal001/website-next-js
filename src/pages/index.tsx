@@ -1,8 +1,5 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import Typewriter from "typewriter-effect";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -15,7 +12,7 @@ export default function Home() {
       </Head>
       <main className="snap-mandatory snap-y h-screen overflow-scroll scroll-smooth">
         <section className="snap-start flex items-center bg-blue-200 min-h-screen">
-          <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+          <div className="mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
             <h1 className="mb-4 text-3xl font-normal tracking-tight leading-none text-neutral-900 md:text-4xl lg:text-5xl ">
               <div className="row my-4">{"Hi, my name is Billy and"}</div>
               <div className="row my-4 mb-8">
@@ -48,7 +45,7 @@ export default function Home() {
         <section className="snap-start flex items-center bg-neutral-100 min-h-screen">
           <div
             id="about-me"
-            className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12"
+            className="mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12"
           >
             <h1 className="mb-4 text-4xl font-normal tracking-tight leading-none text-neutral-900 md:text-5xl lg:text-6xl">
               {"Hi, my name is Billy"}
