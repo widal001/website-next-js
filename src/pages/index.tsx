@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Typewriter from "typewriter-effect";
+import Navbar from "@/components/partials/Navbar";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Navbar />
         <div className="snap-mandatory snap-y h-screen overflow-x-clip overflow-y-scroll scroll-smooth">
           <section
             id="hero"
